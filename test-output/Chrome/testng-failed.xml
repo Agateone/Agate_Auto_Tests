@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Chrome]">
+  <test thread-count="5" name="Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Stepdef.Scifi_Transaction$scifi_Transaction">
+        <methods>
+          <include name="the_popbitch_wallet_balance_is_updated_same_as_scifi_and_free_point_remains_uneffected"/>
+          <include name="maidenhead_wallet_balance_remains_and_is_uneffected_by_scifi"/>
+          <include name="slough_wallet_balance_remains_and_is_uneffected_by_scifi"/>
+          <include name="cornwall_wallet_balance_remains_and_is_uneffected_according_to_scifi"/>
+          <include name="cricketer_wallet_balance_is_updated_and_free_point_remains_unaffected_by_scifi"/>
+          <include name="windsor_wallet_balance_remains_and_is_uneffected_by_scifi"/>
+        </methods>
+      </class> <!-- Stepdef.Scifi_Transaction$scifi_Transaction -->
+      <class name="Stepdef.Scifi_Register">
+        <methods>
+          <include name="i_am_registered_as_an_agate_user_on_scifi_successfully_and_I_am_shown_a_first_use_notice"/>
+        </methods>
+      </class> <!-- Stepdef.Scifi_Register -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Chrome] -->

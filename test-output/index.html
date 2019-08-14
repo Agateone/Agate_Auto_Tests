@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Chrome">
+              <span class="suite-name border-failed">Chrome</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Chrome">
+                    <span>Scifi_chrome.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Chrome">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Chrome">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Chrome">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Chrome">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Chrome">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Chrome">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 7 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Chrome" class="hide-methods failed suite-Chrome"> (hide)</a> <!-- hide-methods failed suite-Chrome -->
+                      <a href="#" panel-name="suite-Chrome" class="show-methods failed suite-Chrome"> (show)</a> <!-- show-methods failed suite-Chrome -->
+                    </span>
+                    <div class="method-list-content failed suite-Chrome">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Transaction$scifi_Transaction" hash-for-method="cornwall_wallet_balance_remains_and_is_uneffected_according_to_scifi">cornwall_wallet_balance_remains_and_is_uneffected_according_to_scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Transaction$scifi_Transaction" hash-for-method="cricketer_wallet_balance_is_updated_and_free_point_remains_unaffected_by_scifi">cricketer_wallet_balance_is_updated_and_free_point_remains_unaffected_by_scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Register" hash-for-method="i_am_registered_as_an_agate_user_on_scifi_successfully_and_I_am_shown_a_first_use_notice">i_am_registered_as_an_agate_user_on_scifi_successfully_and_I_am_shown_a_first_use_notice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Transaction$scifi_Transaction" hash-for-method="maidenhead_wallet_balance_remains_and_is_uneffected_by_scifi">maidenhead_wallet_balance_remains_and_is_uneffected_by_scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Transaction$scifi_Transaction" hash-for-method="slough_wallet_balance_remains_and_is_uneffected_by_scifi">slough_wallet_balance_remains_and_is_uneffected_by_scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Transaction$scifi_Transaction" hash-for-method="the_popbitch_wallet_balance_is_updated_same_as_scifi_and_free_point_remains_uneffected">the_popbitch_wallet_balance_is_updated_same_as_scifi_and_free_point_remains_uneffected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Transaction$scifi_Transaction" hash-for-method="windsor_wallet_balance_remains_and_is_uneffected_by_scifi">windsor_wallet_balance_remains_and_is_uneffected_by_scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Chrome -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Chrome" class="hide-methods passed suite-Chrome"> (hide)</a> <!-- hide-methods passed suite-Chrome -->
+                      <a href="#" panel-name="suite-Chrome" class="show-methods passed suite-Chrome"> (show)</a> <!-- show-methods passed suite-Chrome -->
+                    </span>
+                    <div class="method-list-content passed suite-Chrome">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Transaction$scifi_Transaction" hash-for-method="Reactions_wallet_balance_is_updated_and_free_point_remains_uneffected_as_on_scifi">Reactions_wallet_balance_is_updated_and_free_point_remains_uneffected_as_on_scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Transaction$scifi_Transaction" hash-for-method="i_am_a_registered_Agate_User_and_I_login_in_to_scifi(Chrome)">i_am_a_registered_Agate_User_and_I_login_in_to_scifi(Chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Register" hash-for-method="i_am_not_a_user_of_agate_on_Scifi_and_I_open_a_browser(Chrome)">i_am_not_a_user_of_agate_on_Scifi_and_I_open_a_browser(Chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Register" hash-for-method="i_click_on_the_create_wallet_button_on_scifi">i_click_on_the_create_wallet_button_on_scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Register" hash-for-method="i_enter_all_the_details_successfully_on_reg_page_on_scifi">i_enter_all_the_details_successfully_on_reg_page_on_scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Register" hash-for-method="i_navigate_to_a_premium_article_on_Scifi">i_navigate_to_a_premium_article_on_Scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Transaction$scifi_Transaction" hash-for-method="i_read_a_premium_article_on_scifi">i_read_a_premium_article_on_scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Register" hash-for-method="i_verify_that_the_create_wallet_button_takes_me_to_the_reg_page_on_scifi">i_verify_that_the_create_wallet_button_takes_me_to_the_reg_page_on_scifi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Chrome" title="Stepdef.Scifi_Transaction$scifi_Transaction" hash-for-method="the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_scifi_wallet">the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_scifi_wallet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Chrome -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Chrome" class="panel Chrome">
+          <div class="suite-Chrome-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Stepdef.Scifi_Transaction$scifi_Transaction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cornwall_wallet_balance_remains_and_is_uneffected_according_to_scifi">
+                  </a> <!-- cornwall_wallet_balance_remains_and_is_uneffected_according_to_scifi -->
+                  <span class="method-name">cornwall_wallet_balance_remains_and_is_uneffected_according_to_scifi</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;9.8&gt; but was:&lt;9.75&gt;
+	at Stepdef.Scifi_Transaction$scifi_Transaction.cornwall_wallet_balance_remains_and_is_uneffected_according_to_scifi(Scifi_Transaction.java:418)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cricketer_wallet_balance_is_updated_and_free_point_remains_unaffected_by_scifi">
+                  </a> <!-- cricketer_wallet_balance_is_updated_and_free_point_remains_unaffected_by_scifi -->
+                  <span class="method-name">cricketer_wallet_balance_is_updated_and_free_point_remains_unaffected_by_scifi</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;9.8&gt; but was:&lt;9.75&gt;
+	at Stepdef.Scifi_Transaction$scifi_Transaction.cricketer_wallet_balance_is_updated_and_free_point_remains_unaffected_by_scifi(Scifi_Transaction.java:353)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maidenhead_wallet_balance_remains_and_is_uneffected_by_scifi">
+                  </a> <!-- maidenhead_wallet_balance_remains_and_is_uneffected_by_scifi -->
+                  <span class="method-name">maidenhead_wallet_balance_remains_and_is_uneffected_by_scifi</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;9.8&gt; but was:&lt;9.75&gt;
+	at Stepdef.Scifi_Transaction$scifi_Transaction.maidenhead_wallet_balance_remains_and_is_uneffected_by_scifi(Scifi_Transaction.java:483)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="slough_wallet_balance_remains_and_is_uneffected_by_scifi">
+                  </a> <!-- slough_wallet_balance_remains_and_is_uneffected_by_scifi -->
+                  <span class="method-name">slough_wallet_balance_remains_and_is_uneffected_by_scifi</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;9.8&gt; but was:&lt;9.75&gt;
+	at Stepdef.Scifi_Transaction$scifi_Transaction.slough_wallet_balance_remains_and_is_uneffected_by_scifi(Scifi_Transaction.java:543)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_popbitch_wallet_balance_is_updated_same_as_scifi_and_free_point_remains_uneffected">
+                  </a> <!-- the_popbitch_wallet_balance_is_updated_same_as_scifi_and_free_point_remains_uneffected -->
+                  <span class="method-name">the_popbitch_wallet_balance_is_updated_same_as_scifi_and_free_point_remains_uneffected</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;50&gt; but was:&lt;until free&gt;
+	at Stepdef.Scifi_Transaction$scifi_Transaction.the_popbitch_wallet_balance_is_updated_same_as_scifi_and_free_point_remains_uneffected(Scifi_Transaction.java:245)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="windsor_wallet_balance_remains_and_is_uneffected_by_scifi">
+                  </a> <!-- windsor_wallet_balance_remains_and_is_uneffected_by_scifi -->
+                  <span class="method-name">windsor_wallet_balance_remains_and_is_uneffected_by_scifi</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;9.8&gt; but was:&lt;9.75&gt;
+	at Stepdef.Scifi_Transaction$scifi_Transaction.windsor_wallet_balance_remains_and_is_uneffected_by_scifi(Scifi_Transaction.java:603)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome-class-failed -->
+          <div class="suite-Chrome-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Stepdef.Scifi_Register</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_am_registered_as_an_agate_user_on_scifi_successfully_and_I_am_shown_a_first_use_notice">
+                  </a> <!-- i_am_registered_as_an_agate_user_on_scifi_successfully_and_I_am_shown_a_first_use_notice -->
+                  <span class="method-name">i_am_registered_as_an_agate_user_on_scifi_successfully_and_I_am_shown_a_first_use_notice</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;0.25&gt; but was:&lt;0.0&gt;
+	at Stepdef.Scifi_Register.i_am_registered_as_an_agate_user_on_scifi_successfully_and_I_am_shown_a_first_use_notice(Scifi_Register.java:239)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome-class-failed -->
+          <div class="suite-Chrome-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Stepdef.Scifi_Transaction$scifi_Transaction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Reactions_wallet_balance_is_updated_and_free_point_remains_uneffected_as_on_scifi">
+                  </a> <!-- Reactions_wallet_balance_is_updated_and_free_point_remains_uneffected_as_on_scifi -->
+                  <span class="method-name">Reactions_wallet_balance_is_updated_and_free_point_remains_uneffected_as_on_scifi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_am_a_registered_Agate_User_and_I_login_in_to_scifi(Chrome)">
+                  </a> <!-- i_am_a_registered_Agate_User_and_I_login_in_to_scifi(Chrome) -->
+                  <span class="method-name">i_am_a_registered_Agate_User_and_I_login_in_to_scifi</span>
+                  <span class="parameters">(Chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_read_a_premium_article_on_scifi">
+                  </a> <!-- i_read_a_premium_article_on_scifi -->
+                  <span class="method-name">i_read_a_premium_article_on_scifi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_scifi_wallet">
+                  </a> <!-- the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_scifi_wallet -->
+                  <span class="method-name">the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_scifi_wallet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome-class-passed -->
+          <div class="suite-Chrome-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Stepdef.Scifi_Register</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_am_not_a_user_of_agate_on_Scifi_and_I_open_a_browser(Chrome)">
+                  </a> <!-- i_am_not_a_user_of_agate_on_Scifi_and_I_open_a_browser(Chrome) -->
+                  <span class="method-name">i_am_not_a_user_of_agate_on_Scifi_and_I_open_a_browser</span>
+                  <span class="parameters">(Chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_click_on_the_create_wallet_button_on_scifi">
+                  </a> <!-- i_click_on_the_create_wallet_button_on_scifi -->
+                  <span class="method-name">i_click_on_the_create_wallet_button_on_scifi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_enter_all_the_details_successfully_on_reg_page_on_scifi">
+                  </a> <!-- i_enter_all_the_details_successfully_on_reg_page_on_scifi -->
+                  <span class="method-name">i_enter_all_the_details_successfully_on_reg_page_on_scifi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_navigate_to_a_premium_article_on_Scifi">
+                  </a> <!-- i_navigate_to_a_premium_article_on_Scifi -->
+                  <span class="method-name">i_navigate_to_a_premium_article_on_Scifi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_verify_that_the_create_wallet_button_takes_me_to_the_reg_page_on_scifi">
+                  </a> <!-- i_verify_that_the_create_wallet_button_takes_me_to_the_reg_page_on_scifi -->
+                  <span class="method-name">i_verify_that_the_create_wallet_button_takes_me_to_the_reg_page_on_scifi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome-class-passed -->
+        </div> <!-- panel Chrome -->
+        <div panel-name="test-xml-Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/jay/eclipse-workspace/Project/Scifi_chrome.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Chrome&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Stepdef.Scifi_Register&quot;/&gt;
+      &lt;class name=&quot;Stepdef.Scifi_Transaction&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome --&gt;
+&lt;/suite&gt; &lt;!-- Chrome --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Chrome');
+function tableData_Chrome() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'i_am_registered_as_an_agate_user_on_scifi_successfully_and_I_am_shown_a_first_use_notice')
+data.setCell(0, 2, 'Stepdef.Scifi_Register')
+data.setCell(0, 3, 50038);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'i_am_a_registered_Agate_User_and_I_login_in_to_scifi')
+data.setCell(1, 2, 'Stepdef.Scifi_Transaction$scifi_Transaction')
+data.setCell(1, 3, 48618);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'i_enter_all_the_details_successfully_on_reg_page_on_scifi')
+data.setCell(2, 2, 'Stepdef.Scifi_Register')
+data.setCell(2, 3, 47288);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'windsor_wallet_balance_remains_and_is_uneffected_by_scifi')
+data.setCell(3, 2, 'Stepdef.Scifi_Transaction$scifi_Transaction')
+data.setCell(3, 3, 19443);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'i_click_on_the_create_wallet_button_on_scifi')
+data.setCell(4, 2, 'Stepdef.Scifi_Register')
+data.setCell(4, 3, 19109);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'the_popbitch_wallet_balance_is_updated_same_as_scifi_and_free_point_remains_uneffected')
+data.setCell(5, 2, 'Stepdef.Scifi_Transaction$scifi_Transaction')
+data.setCell(5, 3, 17951);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Reactions_wallet_balance_is_updated_and_free_point_remains_uneffected_as_on_scifi')
+data.setCell(6, 2, 'Stepdef.Scifi_Transaction$scifi_Transaction')
+data.setCell(6, 3, 14230);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'maidenhead_wallet_balance_remains_and_is_uneffected_by_scifi')
+data.setCell(7, 2, 'Stepdef.Scifi_Transaction$scifi_Transaction')
+data.setCell(7, 3, 13970);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'slough_wallet_balance_remains_and_is_uneffected_by_scifi')
+data.setCell(8, 2, 'Stepdef.Scifi_Transaction$scifi_Transaction')
+data.setCell(8, 3, 13319);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'i_read_a_premium_article_on_scifi')
+data.setCell(9, 2, 'Stepdef.Scifi_Transaction$scifi_Transaction')
+data.setCell(9, 3, 12497);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'i_verify_that_the_create_wallet_button_takes_me_to_the_reg_page_on_scifi')
+data.setCell(10, 2, 'Stepdef.Scifi_Register')
+data.setCell(10, 3, 12035);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'i_navigate_to_a_premium_article_on_Scifi')
+data.setCell(11, 2, 'Stepdef.Scifi_Register')
+data.setCell(11, 3, 11740);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'cornwall_wallet_balance_remains_and_is_uneffected_according_to_scifi')
+data.setCell(12, 2, 'Stepdef.Scifi_Transaction$scifi_Transaction')
+data.setCell(12, 3, 10389);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_scifi_wallet')
+data.setCell(13, 2, 'Stepdef.Scifi_Transaction$scifi_Transaction')
+data.setCell(13, 3, 10144);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'cricketer_wallet_balance_is_updated_and_free_point_remains_unaffected_by_scifi')
+data.setCell(14, 2, 'Stepdef.Scifi_Transaction$scifi_Transaction')
+data.setCell(14, 3, 10114);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'i_am_not_a_user_of_agate_on_Scifi_and_I_open_a_browser')
+data.setCell(15, 2, 'Stepdef.Scifi_Register')
+data.setCell(15, 3, 1549);
+window.suiteTableData['Chrome']= { tableData: data, tableDiv: 'times-div-Chrome'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Chrome">
+              </div> <!-- times-div-Chrome -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Stepdef.Scifi_Register</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">i_am_not_a_user_of_agate_on_Scifi_and_I_open_a_browser(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_navigate_to_a_premium_article_on_Scifi</span>
+                <span class="method-start">1552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_click_on_the_create_wallet_button_on_scifi</span>
+                <span class="method-start">13294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_verify_that_the_create_wallet_button_takes_me_to_the_reg_page_on_scifi</span>
+                <span class="method-start">32404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_enter_all_the_details_successfully_on_reg_page_on_scifi</span>
+                <span class="method-start">44440 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">i_am_registered_as_an_agate_user_on_scifi_successfully_and_I_am_shown_a_first_use_notice</span>
+                <span class="method-start">91730 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Stepdef.Scifi_Transaction$scifi_Transaction</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">i_am_a_registered_Agate_User_and_I_login_in_to_scifi(Chrome)</span>
+                <span class="method-start">141770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_read_a_premium_article_on_scifi</span>
+                <span class="method-start">190389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">the_wallet_balance_and_free_point_are_deducted_by_x_amount_on_scifi_wallet</span>
+                <span class="method-start">202888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">the_popbitch_wallet_balance_is_updated_same_as_scifi_and_free_point_remains_uneffected</span>
+                <span class="method-start">213033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Reactions_wallet_balance_is_updated_and_free_point_remains_uneffected_as_on_scifi</span>
+                <span class="method-start">230985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cricketer_wallet_balance_is_updated_and_free_point_remains_unaffected_by_scifi</span>
+                <span class="method-start">245216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cornwall_wallet_balance_remains_and_is_uneffected_according_to_scifi</span>
+                <span class="method-start">255332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">maidenhead_wallet_balance_remains_and_is_uneffected_by_scifi</span>
+                <span class="method-start">265723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">slough_wallet_balance_remains_and_is_uneffected_by_scifi</span>
+                <span class="method-start">279695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">windsor_wallet_balance_remains_and_is_uneffected_by_scifi</span>
+                <span class="method-start">293016 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
